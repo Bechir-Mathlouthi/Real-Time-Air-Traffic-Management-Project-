@@ -14,11 +14,11 @@ A lightweight Python-based web application for monitoring and analyzing air traf
 *Real-time flight tracking with interactive map*
 
 ### Statistics Panel
-![Statistics Panel](screenshots/statistics_panel.png)
+![Statistics Panel](screenshots/statistics_panel.PNG)
 *Flight statistics and delay predictions*
 
 ### Flight Details
-![Flight Details](screenshots/flight_details.png)
+![Flight Details](screenshots/flight_details.PNG)
 *Detailed information for individual flights*
 
 ## Features
