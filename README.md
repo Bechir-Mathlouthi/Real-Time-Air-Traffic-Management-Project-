@@ -7,6 +7,20 @@ A lightweight Python-based web application for monitoring and analyzing air traf
 **Bechir Mathlouthi**
 - GitHub: [Bechir-Mathlouthi](https://github.com/Bechir-Mathlouthi)
 
+## Screenshots
+
+### Main Interface
+![Main Interface](screenshots/main_interface.png)
+*Real-time flight tracking with interactive map*
+
+### Statistics Panel
+![Statistics Panel](screenshots/statistics_panel.png)
+*Flight statistics and delay predictions*
+
+### Flight Details
+![Flight Details](screenshots/flight_details.png)
+*Detailed information for individual flights*
+
 ## Features
 
 - Real-time flight tracking using OpenSky Network API
