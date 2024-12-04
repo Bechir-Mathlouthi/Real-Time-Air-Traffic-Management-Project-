@@ -10,17 +10,19 @@ A sophisticated Python-based web application for real-time air traffic monitorin
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Interface](screenshots/flight_details.PNG)
+![Main Interface](screenshots/1.PNG)
 *Real-time flight tracking with interactive map*
 
 ### Statistics Panel
-![Statistics Panel](screenshots/statistics_panel.PNG)
+![Statistics Panel](screenshots/2.PNG)
 *Flight statistics and delay predictions*
 
 ### Flight Details
-![Flight Details](screenshots/flight_details.PNG)
+![Flight Details](screenshots/3.PNG)
 *Detailed information for individual flights*
 
+![Flight Details](screenshots/4.PNG)
+*Detailed  Flight Performance Analysis*
 ## ✨ Key Features
 
 ### 🛩️ Real-Time Flight Tracking
