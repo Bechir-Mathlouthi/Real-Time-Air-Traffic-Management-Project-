@@ -1,41 +1,84 @@
-# Air Traffic Management System
+# Real-Time Air Traffic Management System with AI
 
-A lightweight Python-based web application for monitoring and analyzing air traffic data with basic AI capabilities. The system fetches real-time flight data, provides predictions for delays, and displays the information on an interactive dashboard.
+## 🚀 Project Overview
+A sophisticated Python-based web application for real-time air traffic monitoring and analysis, featuring AI-powered delay predictions and advanced analytics. This project demonstrates the integration of real-time data processing, machine learning, and interactive visualization technologies.
 
-## Author
-
+## 👨‍ Author
 **Bechir Mathlouthi**
 - GitHub: [Bechir-Mathlouthi](https://github.com/Bechir-Mathlouthi)
 
-## Screenshots
+## ✨ Key Features
 
-### Main Interface
-![Main Interface](screenshots/main_interface.png)
-*Real-time flight tracking with interactive map*
+### 🛩️ Real-Time Flight Tracking
+- Live flight data from OpenSky Network API
+- Interactive map visualization with dynamic markers
+- Multiple view modes (Standard, Heatmap, Satellite)
+- Real-time position updates
 
-### Statistics Panel
-![Statistics Panel](screenshots/statistics_panel.png)
-*Flight statistics and delay predictions*
+### 🤖 AI-Powered Analysis
+- Machine learning-based delay predictions
+- Risk assessment algorithms
+- Performance metrics calculation
+- Pattern recognition in flight data
 
-### Flight Details
-![Flight Details](screenshots/flight_details.png)
-*Detailed information for individual flights*
+### 📊 Advanced Analytics Dashboard
+1. **Risk Assessment**
+   - Flight risk distribution analysis
+   - Risk level categorization
+   - Geographical risk heatmaps
+   - Country-wise risk analysis
 
-## Features
+2. **Performance Metrics**
+   - Altitude vs. Velocity analysis
+   - Flight performance indicators
+   - Total distance coverage
+   - Speed and altitude distributions
 
-- Real-time flight tracking using OpenSky Network API
-- Interactive map visualization with flight markers
-- AI-powered delay predictions
-- Flight statistics and analytics
-- Automatic data refresh
-- SQLite database for historical data storage
+3. **Geographical Analysis**
+   - Active countries overview
+   - Coverage area calculations
+   - Regional distribution analysis
+   - Interactive geographical visualizations
 
-## Prerequisites
+4. **Custom Analysis Tools**
+   - Multi-parameter correlation analysis
+   - Custom metric calculations
+   - Statistical summaries
+   - Data export capabilities
 
-- Python 3.8 or higher
-- Virtual environment (recommended)
+### 🔍 Search and Filtering
+- Advanced flight search functionality
+- Multiple filtering criteria
+- Customizable data views
+- Export capabilities for filtered data
 
-## Installation
+## 🛠️ Technical Stack
+
+### Frontend
+- Streamlit for interactive web interface
+- Plotly for advanced visualizations
+- Folium for map integrations
+- Custom CSS for professional styling
+
+### Backend
+- Python 3.8+
+- SQLite database
+- RESTful API integration
+- Asynchronous data processing
+
+### AI/ML Components
+- Scikit-learn for machine learning
+- Random Forest Classifier for predictions
+- Real-time data preprocessing
+- Model persistence and updates
+
+### Data Sources
+- OpenSky Network API
+- Historical flight data
+- Synthetic training data
+- Real-time updates
+
+## 📦 Installation
 
 1. Clone the repository:
 ```bash
@@ -43,7 +86,7 @@ git clone https://github.com/Bechir-Mathlouthi/Real-Time-Air-Traffic-Management-
 cd Real-Time-Air-Traffic-Management-Project-
 ```
 
-2. Create and activate a virtual environment:
+2. Create and activate virtual environment:
 ```bash
 python -m venv ATM_env
 source ATM_env/bin/activate  # On Unix/macOS
@@ -55,78 +98,88 @@ source ATM_env/bin/activate  # On Unix/macOS
 pip install -r requirements.txt
 ```
 
-## Configuration
+## ⚙️ Configuration
 
-1. (Optional) Set up OpenSky Network credentials:
-   - Create a free account at [OpenSky Network](https://opensky-network.org/)
-   - Set environment variables:
-     ```bash
-     export OPENSKY_USERNAME="your_username"
-     export OPENSKY_PASSWORD="your_password"
-     ```
-     Or create a `.env` file with these credentials.
+1. Set up OpenSky Network credentials:
+   - Create account at [OpenSky Network](https://opensky-network.org/)
+   - Copy `.env.example` to `.env`
+   - Add your credentials to `.env`
 
-2. The application uses default settings in `src/config.py`. Modify them as needed:
-   - MAP_CENTER: Default map center coordinates
-   - REGION_BOUNDS: Geographic region for flight tracking
-   - REFRESH_INTERVAL: Data update frequency
+2. Configure region settings in `.env`:
+   ```env
+   MIN_LATITUDE=41.0
+   MAX_LATITUDE=51.0
+   MIN_LONGITUDE=-5.0
+   MAX_LONGITUDE=9.0
+   ```
 
-## Usage
+## 🚀 Usage
 
-1. Run the Streamlit application:
+1. Start the application:
 ```bash
 streamlit run src/app.py
 ```
 
-2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501)
+2. Access the dashboard:
+   - Open browser at `http://localhost:8501`
+   - Use the sidebar for navigation
+   - Explore different analysis views
 
-3. The dashboard will automatically:
-   - Fetch real-time flight data
-   - Display flights on the interactive map
-   - Show flight statistics and analytics
-   - Update periodically (if auto-refresh is enabled)
+## 📊 Features in Detail
 
-## Project Structure
+### Real-Time Monitoring
+- Live flight tracking with position updates
+- Dynamic risk assessment
+- Performance metrics calculation
+- Automatic data refresh
 
-```
-ATM/
-├── src/
-│   ├── app.py              # Main Streamlit application
-│   ├── config.py           # Configuration settings
-│   ├── database.py         # Database operations
-│   ├── opensky_client.py   # OpenSky API client
-│   └── predictor.py        # AI prediction module
-├── data/                   # Database and data files
-├── models/                 # Trained ML models
-├── requirements.txt        # Python dependencies
-└── README.md              # This file
-```
+### Interactive Analytics
+- Custom parameter analysis
+- Multi-dimensional visualizations
+- Statistical summaries
+- Data export options
 
-## Technical Details
+### Risk Assessment
+- Flight risk categorization
+- Geographical risk distribution
+- Historical trend analysis
+- Predictive analytics
 
-- **Frontend**: Streamlit dashboard with Folium maps and Plotly charts
-- **Backend**: Python with SQLite database
-- **Data Source**: OpenSky Network API
-- **AI Model**: Random Forest Classifier for delay predictions
-- **Data Storage**: SQLite database for historical data
+## 🎯 Future Enhancements
 
-## Limitations
+- [ ] Machine learning model improvements
+- [ ] Additional data sources integration
+- [ ] Enhanced prediction capabilities
+- [ ] More visualization options
+- [ ] User authentication system
+- [ ] Historical data analysis
+- [ ] API endpoint documentation
+- [ ] Performance optimizations
 
-- The delay prediction model uses synthetic training data
-- OpenSky Network API has rate limits for anonymous users
-- Geographic coverage depends on OpenSky Network data availability
+## 🤝 Contributing
 
-## Contributing
+Contributions are welcome! Please feel free to submit issues and pull requests.
 
-Feel free to submit issues, fork the repository, and create pull requests for any improvements.
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a pull request
 
-## Contact
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- OpenSky Network for providing flight data API
+- Streamlit team for the amazing framework
+- Contributors and supporters of the project
+
+## 📞 Contact
 
 For any questions or suggestions, feel free to reach out:
 - GitHub: [Bechir-Mathlouthi](https://github.com/Bechir-Mathlouthi)
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Copyright (c) 2024 Bechir Mathlouthi 
+---
+Copyright © 2024 Bechir Mathlouthi. All rights reserved.
