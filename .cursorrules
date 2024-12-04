@@ -1,0 +1,65 @@
+{
+    "project_rules": [
+      {
+        "rule": "Set up the Python environment with minimal dependencies.",
+        "details": [
+          "Install necessary libraries: pandas, numpy, scikit-learn, streamlit, folium, plotly.",
+          "Ensure the environment is lightweight and uses SQLite for data storage."
+        ]
+      },
+      {
+        "rule": "Implement API integration for real-time flight data.",
+        "details": [
+          "Use OpenSky Network API or similar for fetching live flight data.",
+          "Clean and preprocess fetched data for visualization and AI prediction."
+        ]
+      },
+      {
+        "rule": "Develop an AI module for flight delay prediction.",
+        "details": [
+          "Train a basic machine learning model using scikit-learn.",
+          "Use a small dataset for delay prediction (sample dataset or static historical data).",
+          "Save the trained model for real-time use."
+        ]
+      },
+      {
+        "rule": "Create an interactive web dashboard using Streamlit.",
+        "details": [
+          "Include a real-time map visualization of flight data using Folium or Plotly.",
+          "Add simple visualizations, like bar charts or metrics for delay predictions.",
+          "Ensure the dashboard is intuitive and user-friendly."
+        ]
+      },
+      {
+        "rule": "Set up SQLite as the database for storing historical data.",
+        "details": [
+          "Store minimal historical data for model training and analysis.",
+          "Ensure database queries are optimized for performance."
+        ]
+      },
+      {
+        "rule": "Focus on simplicity and ease of deployment.",
+        "details": [
+          "Test the application locally.",
+          "Provide clear instructions for setting up and running the application."
+        ]
+      },
+      {
+        "rule": "Write clean, modular, and well-documented code.",
+        "details": [
+          "Use consistent naming conventions.",
+          "Include comments for all significant sections of the code.",
+          "Break the application into logical modules: data fetching, AI, dashboard, and database."
+        ]
+      },
+      {
+        "rule": "Perform functional and integration testing.",
+        "details": [
+          "Test the API integration with sample data.",
+          "Verify AI model accuracy with test inputs.",
+          "Ensure the dashboard updates in real-time and displays correct data."
+        ]
+      }
+    ]
+  }
+  

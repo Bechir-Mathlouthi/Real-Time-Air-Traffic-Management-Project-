@@ -1,0 +1,34 @@
+# Python virtual environment
+ATM_env/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Database
+data/*.db
+
+# Model files
+models/*.pkl
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# System files
+.DS_Store
+Thumbs.db 
