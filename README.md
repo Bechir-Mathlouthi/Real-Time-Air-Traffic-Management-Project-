@@ -3,9 +3,23 @@
 ## 🚀 Project Overview
 A sophisticated Python-based web application for real-time air traffic monitoring and analysis, featuring AI-powered delay predictions and advanced analytics. This project demonstrates the integration of real-time data processing, machine learning, and interactive visualization technologies.
 
-## 👨‍ Author
+## 👨‍💻 Author
 **Bechir Mathlouthi**
 - GitHub: [Bechir-Mathlouthi](https://github.com/Bechir-Mathlouthi)
+
+## 📸 Screenshots
+
+### Main Interface
+![Main Interface](screenshots/flight_details.PNG)
+*Real-time flight tracking with interactive map*
+
+### Statistics Panel
+![Statistics Panel](screenshots/statistics_panel.PNG)
+*Flight statistics and delay predictions*
+
+### Flight Details
+![Flight Details](screenshots/flight_details.PNG)
+*Detailed information for individual flights*
 
 ## ✨ Key Features
 
