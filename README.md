@@ -2,6 +2,11 @@
 
 A lightweight Python-based web application for monitoring and analyzing air traffic data with basic AI capabilities. The system fetches real-time flight data, provides predictions for delays, and displays the information on an interactive dashboard.
 
+## Author
+
+**Bechir Mathlouthi**
+- GitHub: [Bechir-Mathlouthi](https://github.com/Bechir-Mathlouthi)
+
 ## Features
 
 - Real-time flight tracking using OpenSky Network API
@@ -20,8 +25,8 @@ A lightweight Python-based web application for monitoring and analyzing air traf
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd ATM
+git clone https://github.com/Bechir-Mathlouthi/Real-Time-Air-Traffic-Management-Project-.git
+cd Real-Time-Air-Traffic-Management-Project-
 ```
 
 2. Create and activate a virtual environment:
@@ -101,6 +106,13 @@ ATM/
 
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
 
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+- GitHub: [Bechir-Mathlouthi](https://github.com/Bechir-Mathlouthi)
+
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Copyright (c) 2024 Bechir Mathlouthi 
