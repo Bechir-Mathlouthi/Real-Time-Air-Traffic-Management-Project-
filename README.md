@@ -10,7 +10,7 @@ A lightweight Python-based web application for monitoring and analyzing air traf
 ## Screenshots
 
 ### Main Interface
-![Main Interface](screenshots/main_interface.png)
+![Main Interface](screenshots/flight_details.PNG)
 *Real-time flight tracking with interactive map*
 
 ### Statistics Panel
